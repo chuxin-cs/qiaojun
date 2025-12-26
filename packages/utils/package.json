@@ -1,0 +1,37 @@
+{
+  "name": "@qiaojun/utils",
+  "version": "1.0.5",
+  "type": "module",
+  "description": "用于 React、Vue、微信小程序、uni-app 等项目中使用，是常用的工具函数",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "types": "./index.d.ts",
+  "license": "MIT",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "index.d.ts",
+    "README.md"
+  ],
+  "keywords": [
+    "utils"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuxin-cs/utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chuxin-cs/utils/issues"
+  },
+  "homepage": "https://github.com/chuxin-cs/utils/tree/master#readme"
+}
