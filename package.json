@@ -1,19 +1,26 @@
 {
   "name": "qiaojun",
   "version": "1.0.0",
-  "description": "npm chuxin-cs",
+  "description": "npm chuxin-cs Repository, Link：https://www.npmjs.com/settings/qiaojun/packages",
   "homepage": "https://github.com/chuxin-cs/qiaojun",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chuxin-cs/qiaojun.git"
   },
   "keywords": [
-    "qiaojun"
+    "qiaojun",
+    "npm"
   ],
   "author": "chuxin",
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.29.8",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "unbuild": "^3.6.1",
+    "vite": "^7.3.0"
+  },
+  "dependencies": {
+    "pinia": "^3.0.4",
+    "vue": "^3.5.26"
   }
 }
