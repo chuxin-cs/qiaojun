@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chuxin-cs/utils.git"
+    "url": "git+https://github.com/chuxin-cs/qiaojun.git"
   },
   "bugs": {
-    "url": "https://github.com/chuxin-cs/utils/issues"
+    "url": "https://github.com/chuxin-cs/qiaojun/issues"
   },
   "homepage": "https://github.com/chuxin-cs/utils/tree/master#readme"
 }

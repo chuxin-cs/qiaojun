@@ -13,6 +13,11 @@
   ],
   "author": "chuxin",
   "license": "MIT",
+  "scripts": {
+    "build": "pnpm -r --if-present run build",
+    "build:packages": "pnpm -r --if-present --filter \"./packages/**\" run build",
+    "build:utils": "pnpm -r --filter @qiaojun/utils run build"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.29.8",
     "typescript": "^5.9.3",
