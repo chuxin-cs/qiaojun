@@ -12,6 +12,11 @@ node_modules
 dist
 *.local
 
+# VitePress
+docs/.vitepress/cache
+docs/.vitepress/dist
+docs/.vitepress/.temp
+
 # Editor directories and files
 .idea
 *.suo
@@ -19,3 +24,4 @@ dist
 *.njsproj
 *.sln
 *.sw?
+
